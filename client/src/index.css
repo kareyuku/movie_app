@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif!important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif!important;
+  color: white!important;
+}
+
+.anime__card__title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+}
